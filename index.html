@@ -11,12 +11,14 @@
 
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/f3a04868c8.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg mt-3">
-            <div class="container">
+        <!-- nav bar start -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg mt-3">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
                 </a>
@@ -47,10 +49,54 @@
                             <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
                         </li>
                     </ul>
-
                 </div>
+            </nav>
+        </div>
+        <!-- nav-bar end -->
+
+        <!-- slider start -->
+        <section>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner mt-5 p-5 bg-info">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-7 d-flex align-items-center">
+                                <div>
+                                    <h2>Cool Dude Headphone
+                                    </h2>
+                                    <p>This is the best headphone in the world for people who just want to waste time in
+                                        front
+                                        of funky world.</p>
+                                    <h1>$420</h1>
+                                    <div class="btn bg-light">Buy Now</div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/banner-images/headphone.png"
+                                    class="d-block w-100 bg-white bg-transparent" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-        </nav>
+        </section>
+        <!-- slider end -->
     </header>
     <!-- Bootstrap JS link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
