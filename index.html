@@ -14,12 +14,12 @@
 
 </head>
 
-<body>
+<body id="home">
     <header>
         <!-- nav bar start -->
-        <div class="container">
-            <nav class="navbar navbar-expand-lg mt-3">
-                <a class="navbar-brand" href="#">
+        <nav class="navbar navbar-expand-lg m-1 w-100 fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
                     <img src="images/logo.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,25 +37,25 @@
                     </form>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#categories">Categories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Product</a>
+                            <a class="nav-link active" aria-current="page" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                            <a class="nav-link active" aria-current="page" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                            <a class="nav-link active" aria-current="page" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
         <!-- nav-bar end -->
 
         <!-- slider start -->
-        <section class="m-5">
+        <section class="m-5 p-2">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner p-5 rounded-4 bg-info">
                     <div class="carousel-item active">
@@ -130,7 +130,7 @@
     </header>
     <main>
         <!-- categories start -->
-        <div class="container overflow-hidden ">
+        <div class="container overflow-hidden" id="categories">
             <div class="row gy-5 gx-5">
                 <h1>Categories</h1>
                 <div class="col-lg-4 col-md-6 col-12">
@@ -156,7 +156,7 @@
         </div>
         <!-- categories end -->
         <!-- shoes card start -->
-        <section class="container">
+        <section class="container" id="shoes">
             <h1 class="mt-5 mb-5 pt-5 pb-5">Shoes</h1>
             <div class="row gx-5 gy-5">
                 <div class="col-lg-4 col-md-6 col-12">
@@ -215,7 +215,7 @@
         </section>
         <!-- shoes card end -->
         <!-- Bags card start -->
-        <section class="container">
+        <section class="container" id="backpack">
             <h1 class="mt-5 mb-5 pt-5 pb-5">Backpack</h1>
             <div class="row gx-5 gy-5">
                 <div class="col-lg-4 col-md-6 col-12">
@@ -269,7 +269,7 @@
         </section>
         <!-- Bags card end -->
         <!-- form section start -->
-        <section class="container mt-5 d-flex align-items-center justify-content-center">
+        <section class="container mt-5 d-flex align-items-center justify-content-center" id="subscribe">
             <div class="w-75 m-5 p-5 d-flex align-items-center justify-content-center bg-dark text-white rounded-4">
                 <div>
                     <h1>LET'S STAY IN TOUCH
